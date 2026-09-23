@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A História Completa da Física Quântica</title>
+    <style>
+        :root {
+            --primary-color: #0d1b2a;
+            --secondary-color: #1b263b;
+            --accent-color: #0077b6;
+            --highlight-color: #90e0ef;
+            --bg-color: #f8f9fa;
+            --text-color: #212529;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: #ffffff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            color: var(--highlight-color);
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: var(--card-bg);
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--highlight-color);
+            padding-bottom: 8px;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: var(--secondary-color);
+            margin-top: 25px;
+        }
+
+        .formula-box {
+            background-color: #e0f1f7;
+            border-left: 5px solid var(--accent-color);
+            padding: 20px;
+            margin: 20px 0;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.1rem;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .formula-title {
+            font-weight: bold;
+            color: var(--primary-color);
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #dee2e6;
+        }
+
+        th {
+            background-color: var(--accent-color);
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+
+        td {
+            padding: 12px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f1f5f9;
+        }
+
+        .highlight-box {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--primary-color);
+            color: #ffffff;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>A História e Evolução da Física Quântica</h1>
+        <p>Da crise do século XIX à Segunda Revolução Quântica</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>1. Introdução: O Paradigma da Física Clássica</h2>
+            <p>No final do século XIX, a comunidade científica acreditava que as leis fundamentais da natureza já haviam sido completamente descobertas. A <strong>Mecânica Clássica de Isaac Newton</strong> explicava com precisão o movimento dos planetas e objetos cotidianos, enquanto o <strong>Eletromagnetismo de James Clerk Maxwell</strong> unificava os fenômenos elétricos, magnéticos e luminosos. O universo era visto como um determinismo perfeito: conhecendo a posição e a velocidade de todas as partículas, seria possível prever todo o futuro.</p>
+            <p>Contudo, à medida que os instrumentos de medição se tornaram mais precisos, os físicos começaram a observar fenômenos no mundo microscópico que a física clássica simplesmente não conseguia explicar.</p>
+        </section>
+
+        <section>
+            <h2>2. Por que precisou de uma nova física? As Três Crises Principais</h2>
+
+            <h3>A. A Catástrofe do Ultravioleta</h3>
+            <p>Um "corpo negro" é um objeto ideal que absorve e emite toda a radiação térmica. A física clássica previa que, ao ser aquecido, o corpo negro deveria emitir uma quantidade infinita de energia em comprimentos de onda curtos (frequências altas, como o ultravioleta). Se essa lei estivesse correta, qualquer objeto aquecido, como um forno doméstico, incineraria o universo instantaneamente com raios gama e raios X.</p>
+
+            <h3>B. O Efeito Fotoelétrico</h3>
+            <p>Quando a luz incide sobre certas superfícies metálicas, ela ejecta elétrons. A teoria ondulatória clássica previa que aumentar a <em>intensidade</em> (brilho) da luz aumentaria a energia dos elétrons ejetados. No entanto, experimentos mostraram que a energia dos elétrons dependia exclusivamente da <em>frequência</em> (cor) da luz, e não da sua intensidade.</p>
+
+            <h3>C. A Instabilidade do Átomos</h3>
+            <p>De acordo com as leis do eletromagnetismo de Maxwell, uma carga elétrica em movimento acelerado (como um elétron orbitando o núcleo atômico) deve emitir radiação continuamente. Ao perder energia, o elétron deveria espiralar para dentro do núcleo em uma fração de segundo. Pela física clássica, a matéria estável não deveria existir.</p>
+        </section>
+
+        <section>
+            <h2>3. O Nascimento do Quantum e os Primeiros Avanços</h2>
+            <p>Em 14 de dezembro de 1900, o físico alemão <strong>Max Planck</strong> apresentou uma solução teórica para a catástrofe do ultravioleta. Para fazer a matemática funcionar, ele teve que assumir que a energia não é emitida ou absorvida de forma contínua, mas sim em pacotes discretos indivisíveis chamados <strong>"quanta"</strong>.</p>
+            <p>Em 1905, <strong>Albert Einstein</strong> deu um passo além ao propor que a energia da luz não era apenas emitida em pacotes, mas viajava e existia como partículas reais de luz (mais tarde chamadas de <strong>fótons</strong>). Essa hipótese explicou perfeitamente o efeito fotoelétrico e rendeu a Einstein o Prêmio Nobel de Física em 1921.</p>
+            <p>Em 1913, <strong>Niels Bohr</strong> aplicou os conceitos quânticos ao modelo atômico. Ele propôs que os elétrons orbitam o núcleo em camadas discretas (níveis de energia) e só emitem ou absorvem fótons ao saltar de uma órbita para outra — os chamados <em>saltos quânticos</em>.</p>
+        </section>
+
+        <section>
+            <h2>4. Principais Conceitos e Experimentos Fundamentais</h2>
+
+            <h3>A Dualidade Onda-Partícula e o Experimento da Dupla Fenda</h3>
+            <p>Em 1924, <strong>Louis de Broglie</strong> sugeriu que, se a luz (uma onda) podia se comportar como partícula, a matéria (como elétrons) também deveria ter propriedades ondulatórias. O famoso <strong>Experimento da Dupla Fenda</strong> provou essa hipótese: quando elétrons são disparados individualmente através de duas fendas paralelas, eles criam um padrão de interferência no detector — comportamento típico de ondas. No entanto, se um detector é colocado nas fendas para observar por qual delas o elétron passa, o padrão de interferência desaparece e o elétron se comporta estritamente como uma partícula. O ato da medição altera o estado do sistema.</p>
+
+            <h3>Superposição Quântica</h3>
+            <p>Um sistema quântico permanece em uma combinação de todos os seus estados possíveis simultaneamente até ser medido ou interagir com o ambiente. O físico Erwin Schrödinger ilustrou o paradoxo dessa ideia com seu famoso experimento mental do <strong>Gato de Schrödinger</strong>, onde um gato dentro de uma caixa fechada está simultaneamente vivo e morto até que a caixa seja aberta.</p>
+
+            <h3>Emaranhamento Quântico</h3>
+            <p>Fenômeno no qual duas ou mais partículas tornam-se correlacionadas de tal forma que o estado de uma determina instantaneamente o estado da outra, independentemente da distância entre elas. Einstein apelidou ironicamente esse efeito de <em>"ação fantasmagórica à distância"</em>.</p>
+        </section>
+
+        <section>
+            <h2>5. Fórmulas Fundamentais da Física Quântica</h2>
+
+            <div class="formula-box">
+                <span class="formula-title">1. Equação de Planck-Einstein (Energia do Fóton)</span>
+                E = h &middot; f
+                <br><small><strong>E:</strong> Energia | <strong>h:</strong> Constante de Planck (6,626 &times; 10<sup>-34</sup> J&middot;s) | <strong>f:</strong> Frequência</small>
+            </div>
+
+            <div class="formula-box">
+                <span class="formula-title">2. Comprimento de Onda de De Broglie (Dualidade da Matéria)</span>
+                &lambda; = h / p
+                <br><small><strong>&lambda;:</strong> Comprimento de onda | <strong>h:</strong> Constante de Planck | <strong>p:</strong> Momento linear (massa &times; velocidade)</small>
+            </div>
+
+            <div class="formula-box">
+                <span class="formula-title">3. Princípio da Incerteza de Heisenberg</span>
+                &Delta;x &middot; &Delta;p &ge; &#295; / 2
+                <br><small><strong>&Delta;x:</strong> Incerteza na posição | <strong>&Delta;p:</strong> Incerteza no momento | <strong>&#295;:</strong> Constante reduzida de Planck (h / 2&pi;)</small>
+            </div>
+
+            <div class="formula-box">
+                <span class="formula-title">4. Equação de Schrödinger Independente do Tempo</span>
+                Ĥ&Psi; = E&Psi;
+                <br><small><strong>Ĥ:</strong> Operador Hamiltoniano | <strong>&Psi;:</strong> Função de onda | <strong>E:</strong> Autovalor de energia</small>
+            </div>
+        </section>
+
+        <section>
+            <h2>6. Quadro dos Principais Cientistas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cientista</th>
+                        <th>Período</th>
+                        <th>Contribuição Principal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Max Planck</strong></td>
+                        <td>1858–1947</td>
+                        <td>Pai da Teoria Quântica; descobriu a quantização da energia em 1900.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Albert Einstein</strong></td>
+                        <td>1879–1955</td>
+                        <td>Explicou o efeito fotoelétrico introduzindo a ideia do fóton.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Niels Bohr</strong></td>
+                        <td>1885–1962</td>
+                        <td>Desenvolveu o modelo atômico quantizado e a Interpretação de Copenhague.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Louis de Broglie</strong></td>
+                        <td>1892–1987</td>
+                        <td>Formulou a hipótese das ondas de matéria (dualidade onda-partícula).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Erwin Schrödinger</strong></td>
+                        <td>1887–1961</td>
+                        <td>Criou a Mecânica Ondulatória e a Equação de Onda que descreve os estados quânticos.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Werner Heisenberg</strong></td>
+                        <td>1901–1976</td>
+                        <td>Formulou a Mecânica Matricial e o Princípio da Incerteza.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Paul Dirac</strong></td>
+                        <td>1902–1984</td>
+                        <td>Unificou a mecânica quântica com a relatividade restrita e previu a antimatéria.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Richard Feynman</strong></td>
+                        <td>1918–1988</td>
+                        <td>Desenvolveu a Eletrodinâmica Quântica (QED) e os diagramas de Feynman.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>7. O Futuro: Para onde vai a Física Quântica?</h2>
+            <p>A física quântica não é apenas uma teoria abstrata; ela foi responsável pela <strong>Primeira Revolução Quântica</strong>, que gerou Invenções como transistores, lasers, leitor de código de barras, diodos emissores de luz (LED) e equipamentos de ressonância magnética.</p>
+            <p>Atualmente, estamos vivenciando a <strong>Segunda Revolução Quântica</strong>, onde deixamos de apenas observar efeitos quânticos e passamos a manipular ativamente estados quânticos individuais:</p>
+
+            <div class="highlight-box">
+                <ul>
+                    <li><strong>Computação Quântica:</strong> Utiliza <em>qubits</em> (que exploram superposição e emaranhamento) para resolver em minutos cálculos que levariam milhares de anos nos supercomputadores atuais.</li>
+                    <li><strong>Criptografia Quântica (QKD):</strong> Garante comunicações invioláveis, pois qualquer tentativa de interceptação altera o estado do sistema e revela o invasor.</li>
+                    <li><strong>Metrologia e Sensores Quânticos:</strong> Permite criar relógios atômicos com precisão de frações de segundo ao longo da idade do universo e gravímetros de ultraprecisão para exploração geológica.</li>
+                    <li><strong>Biologia Quântica:</strong> Investigação de como fenômenos quânticos influenciam a fotossíntese, a navegação migratória dos pássaros via campo magnético e mutações genéticas.</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; Documento Informativo de Física Quântica — Pronto para hospedagem no GitHub Pages</p>
+    </footer>
+
+</body>
+</html>
